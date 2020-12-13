@@ -16,7 +16,7 @@ services:
     environment:
       - DB_PASSWORD=postgres
     volumes:
-      - .:/spree_commerce
+      - .:/onebitexchange
       - gems:/gems
     depends_on:
       - db
